@@ -27,7 +27,7 @@ The study material for building this algorithm is represented by [Aditya P. Math
 
 This example will show the difference between applying specific tests on conceptual FSM VS an IUT with a transfer error state.
 
-![img2](https://raw.githubusercontent.com/DiaconuAndr3i/FSM-Based-Testing-W-method/main/images/transferError.png?token=GHSAT0AAAAAACJE74HKCHLIRDWDYWAO4CZMZKXQ2UA)
+![img2](./images/fsm.png)
 
 This is a difference applying test t = baaaaaa
 

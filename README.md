@@ -12,7 +12,7 @@ The study material for building this algorithm is represented by [Aditya P. Math
 
 ## The considered FSM
 
-![img1](https://raw.githubusercontent.com/DiaconuAndr3i/FSM-Based-Testing-W-method/main/images/fsm.png?token=GHSAT0AAAAAACJE74HKRYAGPY5GNRNS4X66ZKXQR5Q)
+![img1](./images/fsm.png)
 ## Calculating Testing set based on the algorithm provided by the above chapter
 
 - Printing W set:
@@ -27,37 +27,37 @@ The study material for building this algorithm is represented by [Aditya P. Math
 
 This example will show the difference between applying specific tests on conceptual FSM VS an IUT with a transfer error state.
 
-![img2](./images/fsm.png)
+![img2](./images/transferError.png)
 
 This is a difference applying test t = baaaaaa
 
-![img3](https://raw.githubusercontent.com/DiaconuAndr3i/FSM-Based-Testing-W-method/main/images/transferErrorFromCode.png?token=GHSAT0AAAAAACJE74HKDXMZBUF4F3JFMK5YZKXRDCQ)
+![img3](./images/transferErrorFromCode.png)
 ## Transfer Error and Operations
 
 This example will show the difference between applying specific tests on conceptual FSM VS an IUT with a transfer error and operation error state.
 
-![img4](https://raw.githubusercontent.com/DiaconuAndr3i/FSM-Based-Testing-W-method/main/images/transferErrorAndOperationsError.png?token=GHSAT0AAAAAACJE74HLKPPMORRGE6AAUCHEZKXREEA)
+![img4](./images/transferErrorAndOperationsError.png)
 
 This is a difference applying test t = baabaaa
 
-![img5](https://raw.githubusercontent.com/DiaconuAndr3i/FSM-Based-Testing-W-method/main/images/transferErrorAndOperationsErrorFromCode.png?token=GHSAT0AAAAAACJE74HK7S26SM5VRIXXEPIOZKXREQQ)
+![img5](./images/transferErrorAndOperationsErrorFromCode.png)
 ## IUT extra state 1
 
 This example will show the difference between applying specific tests on conceptual FSM VS an IUT with an extra state.
 
-![img6](https://raw.githubusercontent.com/DiaconuAndr3i/FSM-Based-Testing-W-method/main/images/extraState1.png?token=GHSAT0AAAAAACJE74HLLUIFSQBWACOWTVLIZKXRGAQ)
+![img6](./images/extraState1.png)
 
 This is a difference applying test t = abaaa
 
-![img7](https://raw.githubusercontent.com/DiaconuAndr3i/FSM-Based-Testing-W-method/main/images/extraState1FromCode.png?token=GHSAT0AAAAAACJE74HLSCKMXDSIELN7PZMGZKXRGNQ)
+![img7](./images/extraState1FromCode.png)
 ## IUT extra state 2
 
 This example is pretty same with the previous one, the difference is that for input 'b' from state q6 to state q4 is 1 instead of 0.
 
-![img8](https://raw.githubusercontent.com/DiaconuAndr3i/FSM-Based-Testing-W-method/main/images/extraState2.png?token=GHSAT0AAAAAACJE74HLCUWRL2CMBZHJVANQZKXRIXA)
+![img8](./images/extraState2.png)
 
 This is a difference applying test t = abaaa
 
-![img9](https://raw.githubusercontent.com/DiaconuAndr3i/FSM-Based-Testing-W-method/main/images/extraState2FromCode.png?token=GHSAT0AAAAAACJE74HKV4L2PR53QBCP7EHYZKXRJFA)
+![img9](./images/extraState2FromCode.png)
 
 Regarding the last 2 cases, if we would test for t = baaba, in the first case we will have a difference between fsm and iut but in the second case the test won't reveal the the extra state.
